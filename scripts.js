@@ -9,11 +9,20 @@ async function main(){
 
     var lista = [imagem1, imagem2, imagem3, imagem4, imagem5]
 
-    document.getElementById('imagem1').src = lista[0], document.getElementById('id_imagem1').href = lista[0]
-    document.getElementById('imagem2').src = lista[1], document.getElementById('id_imagem1').href = lista[1]
-    document.getElementById('imagem3').src = lista[2], document.getElementById('id_imagem1').href = lista[2]
-    document.getElementById('imagem4').src = lista[3], document.getElementById('id_imagem1').href = lista[3]
-    document.getElementById('imagem5').src = lista[4], document.getElementById('id_imagem1').href = lista[4]
+    document.getElementById('imagem1').src = lista[0]
+    document.getElementById('id_imagem1').href = lista[0]
+    
+    document.getElementById('imagem2').src = lista[1]
+    document.getElementById('id_imagem1').href = lista[1]
+    
+    document.getElementById('imagem3').src = lista[2]
+    document.getElementById('id_imagem1').href = lista[2]
+    
+    document.getElementById('imagem4').src = lista[3]
+    document.getElementById('id_imagem1').href = lista[3]
+    
+    document.getElementById('imagem5').src = lista[4]
+    document.getElementById('id_imagem1').href = lista[4]
 }
 
 main()
